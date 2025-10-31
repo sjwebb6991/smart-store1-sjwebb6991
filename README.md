@@ -1,4 +1,11 @@
 # Pro Analytics 02 Python Starter Repository
+# use this command to start the virtual env ".\.venv\Scripts\activate"; a simple copy and paste within quotes
+
+
+
+
+
+
 
 > Use this repo to start a professional Python project.
 
