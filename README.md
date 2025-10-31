@@ -1,12 +1,25 @@
+# Pro Analytics 02 Python Starter Repository Notes on fixes
+# a simple copy and paste within quotes; use ctrl+shift+p to set the python interpeter
+# use this command to start the virtual env ".\.venv\Scripts\activate";  #to
+
+# powershell -c "irm https://astral.sh/uv/install.ps1 | iex" gave error
+# fix this issue of powershell "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass"
+
+# to clone a repo
+# cd /path/to/your/projects/folder
+# git clone https://github.com/myusername/my-awesome-repo.git
+
+# logger error
+# (smart-store1-sjwebb6991) PS C:\Repos\smart-store1-sjwebb6991\smart-store1-sjwebb6991> uv run python src/analytics_project/# # demo_module_basics.py
+# Traceback (most recent call last):
+# File "C:\Repos\smart-store1-sjwebb6991\smart-store1-sjwebb6991\src\analytics_project\demo_module_basics.py", line 29, in <module>
+#   from .utils_logger import init_logger, logger
+# ImportError: attempted relative import with no known parent package
+# Fix uv run python -m analytics_project.demo_module_basics
+
+# Jupyter Lab failed from demo code in verify section had to "uv pip install jupyterlab"
+
 # Pro Analytics 02 Python Starter Repository
-# use this command to start the virtual env ".\.venv\Scripts\activate"; a simple copy and paste within quotes
-
-
-
-
-
-
-
 > Use this repo to start a professional Python project.
 
 - Additional information: <https://github.com/sjwebb6991/smart-store1-sjwebb6991>
@@ -51,14 +64,6 @@ uv run python --version
 ```shell
 .\.venv\Scripts\activate
 ```
-
-**macOS / Linux / WSL:**
-
-```shell
-source .venv/bin/activate
-```
-
----
 
 ## WORKFLOW 3. Daily Workflow
 
