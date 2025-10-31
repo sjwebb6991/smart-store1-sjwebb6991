@@ -19,6 +19,11 @@
 
 # Jupyter Lab failed from demo code in verify section had to "uv pip install jupyterlab"
 
+# Use these to update the repo
+# git add .
+# git commit -m "Comments about updates"
+# git push
+
 # Pro Analytics 02 Python Starter Repository
 > Use this repo to start a professional Python project.
 
