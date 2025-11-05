@@ -13,6 +13,7 @@
 # (smart-store1-sjwebb6991) PS C:\Repos\smart-store1-sjwebb6991\smart-store1-sjwebb6991> uv run python src/analytics_project/# # demo_module_basics.py
 # Traceback (most recent call last):
 # File "C:\Repos\smart-store1-sjwebb6991\smart-store1-sjwebb6991\src\analytics_project\demo_module_basics.py", line 29, in <module>
+
 #   from .utils_logger import init_logger, logger
 # ImportError: attempted relative import with no known parent package
 # Fix uv run python -m analytics_project.demo_module_basics
